@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "name": "Uroš Stanić",
+    "title": "Computer Science PhD Student.",
+    "intro": "I'm a Computer Science PhD Student at Texas A&M University specializing in dynamic malware analysis.",
+    "focus": "Currently, I'm focused on building next-gen AI powered fuzzing sandboxes for malware analysis."
+  },
+  "about": {
+    "location": "College Station, TX",
+    "intro": "Hello! I'm Uroš, a Computer Science PhD Student at Texas A&M University, College Station, TX. I digging into the nitty-gritty details of cybersecurity and malware analysis.",
+    "story": "My interest in web development started back in my undergraduate days, and furthered back in 2023 when I attended research internship at Texas A&M University, under my then internship, now PhD advisor Prof. Marcus Botacin. Since then, I've been passionate about better malware detection techniques",
+    "today": "Today, I'm lucky to work in a very driven and collaborative research lab at Texas A&M University."
+  },
+  "experience": [
+    {
+      "role": "PhD Student",
+      "company": "Texas A&M University",
+      "duration": "Jan 2025 - Present",
+      "description": "Develop and maintain a custom sandbox for malware tracing and fuzzing of malware samples,based on Intel Pin instrumentation.Apply AI classifiers, rule-based, and capabilities techniques for malware detection and classifica-\ntion based on logs collected from the aforementioned sandbox."
+    },
+    {
+      "role": "Research Intern",
+      "company": "Texas A&M University",
+      "duration": "Jul 2023 - Sep 2023",
+      "description": "Completed a malware research internship through the CSSAP program with Dr. Marcus Botacin. Designed and implemented a sandbox using Intel Pin to trace Windows API calls of executables. Continued collaborative research beyond the internship, contributing to ongoing projects."
+    }
+  ],
+  "projects": [
+    {
+      "name": "MalArenaBattleground",
+      "description": "Data Analytics for CyberSecurity course project. A competition based on the MLSEC. Contributed offensive efforts, notably made a automatic generation of keylogger variants using Google AI Studio. Played around with evasion and obfuscation techniques to bypass static analysis.",
+      "tech": ["Python", "Malware Analysis", "Machine Learning", "Google AI Studio", "Steganography"],
+      "link": "https://github.com/ili0n/MalArenaBattleground"
+    },
+    {
+      "name": "Bachelor's Thesis: Dynamic Binary Instrumentation Implementation",
+      "description": "Implemented Intel Pin instrumentation for dynamic tracing of Windows API calls (200+ most\ncommon ones for malware detection).",
+      "tech": ["Intel Pin", "Dynamic Instrumentation", "Windows API", "C++"],
+      "link": "https://example.com/task-manager"
+    },
+    {
+      "name": "Cloud Photo Album",
+      "description": "Course Project for Cloud Computing. Implemented a AWS-based cloud photo album application with features like user authentication, photo upload, and sharing. Utilized AWS services such as S3 for storage, Lambda for serverless functions, DynamoDB for database management, and SNS and SQS for inter-lambda communication and consistency.",
+      "tech": ["Go", "Advanced data structures"],
+      "link": "https://github.com/ili0n/Cloud_photo_album"
+    }
+
+
+  ],
+  "contact": {
+    "email": "stanic@tamu.edu",
+    "github": "https://github.com/ili0n",
+    "linkedin": "https://www.linkedin.com/in/ili0n",
+    "message": "Feel free to reach out for collaborations, discussing research ideas, or just to say hi."
+  },
+  "footer": {
+    "text": "Made Uroš Stanić. Inspired by ",
+    "credit": "Brittany Chiang.",
+    "href": "https://github.com/bchiang7/v4"
+  }
+}
