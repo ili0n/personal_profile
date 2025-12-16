@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
+const repoName = 'personal_profile';
+
 const nextConfig = {
-  /* config options here */
-  reactCompiler: true,
+  output: 'export',
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
