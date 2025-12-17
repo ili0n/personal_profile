@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
-const repoName = 'personal_profile';
+const repoName = '';
 
 const nextConfig = {
   output: 'export',
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
+  basePath: repoName ? `/${repoName}` : '',
+  assetPrefix: repoName ? `/${repoName}/` : '',
   images: {
     unoptimized: true,
   },
