@@ -241,6 +241,16 @@ export default function Home() {
                         >
                             <FaLinkedinIn />
                         </a>
+                        <a
+                            href="/resume.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            className={styles.ctaButton}
+                            download
+                            aria-label="Download resume"
+                        >
+                            Resume
+                        </a>
                     </div>
                 </section>
             </main>
