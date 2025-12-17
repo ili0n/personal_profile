@@ -78,7 +78,7 @@ export default function Home() {
         <>
             <header className={styles.header}>
                 <nav className={styles.nav}>
-                    <a href="#" className={styles.logo}>
+                    <a href="#hero" className={styles.logo}>
                         <FaHome />
                     </a>
                     <ul className={styles.navItems}>
@@ -106,7 +106,7 @@ export default function Home() {
                 </nav>
             </header>
 
-            <main className={styles.main}>
+            <main className={styles.main} id="hero">
                 <section className={styles.hero}>
                     <span className={styles.heroTag}>Hi, my name is</span>
                     <h1>{hero.name}.</h1>
