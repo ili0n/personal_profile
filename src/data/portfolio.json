@@ -8,7 +8,7 @@
   "about": {
     "location": "College Station, TX",
     "intro": "Hello! I'm Uroš, a Computer Science PhD Student at Texas A&M University, College Station, TX. I digging into the nitty-gritty details of cybersecurity and malware analysis.",
-    "story": "My interest in web development started back in my undergraduate days, and furthered back in 2023 when I attended research internship at Texas A&M University, under my then internship, now PhD advisor Prof. Marcus Botacin. Since then, I've been passionate about better malware detection techniques",
+    "story": "My interest in web development started back in my undergraduate days, and furthered back in 2023 when I attended research internship at Texas A&M University, under my then internship, now PhD advisor Prof. Marcus Botacin. Since then, I've been passionate about better malware detection techniques.",
     "today": "Today, I'm lucky to work in a very driven and collaborative research lab at Texas A&M University."
   },
   "experience": [
@@ -16,7 +16,7 @@
       "role": "PhD Student",
       "company": "Texas A&M University",
       "duration": "Jan 2025 - Present",
-      "description": "Develop and maintain a custom sandbox for malware tracing and fuzzing of malware samples,based on Intel Pin instrumentation.Apply AI classifiers, rule-based, and capabilities techniques for malware detection and classifica-\ntion based on logs collected from the aforementioned sandbox."
+      "description": "Develop and maintain a custom sandbox for malware tracing and fuzzing of malware samples, based on Intel Pin instrumentation. Apply AI classifiers, rule-based, and capabilities techniques for malware detection and classification based on logs collected from the aforementioned sandbox."
     },
     {
       "role": "Research Intern",
@@ -36,7 +36,7 @@
       "name": "Bachelor's Thesis: Dynamic Binary Instrumentation Implementation",
       "description": "Implemented Intel Pin instrumentation for dynamic tracing of Windows API calls (200+ most\ncommon ones for malware detection).",
       "tech": ["Intel Pin", "Dynamic Instrumentation", "Windows API", "C++"],
-      "link": "https://example.com/task-manager"
+      "link": "https://github.com/ili0n/BSc_paper"
     },
     {
       "name": "Cloud Photo Album",
