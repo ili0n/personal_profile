@@ -129,7 +129,7 @@ export default function Home() {
                     </div>
                     <div className={styles.aboutImage}>
                         <Image
-                            src="/profile.png"
+                            src="/profile.webp"
                             alt="Profile picture"
                             width={400}
                             height={400}
